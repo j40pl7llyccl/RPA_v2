@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataCarrier>
+  <Element>
+    <TypeName>System.String[]</TypeName>
+    <Data>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;InSeconds&lt;/string&gt;
+  &lt;string&gt;InMinute&lt;/string&gt;
+  &lt;string&gt;LongPeriod&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Data>
+  </Element>
+  <Element>
+    <TypeName>uIP.MacroProvider.Commons.CronJob.KeepingScheduleInfo[]</TypeName>
+    <Data>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfKeepingScheduleInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;KeepingScheduleInfo&gt;
+    &lt;RenewWay&gt;NA&lt;/RenewWay&gt;
+    &lt;ExceptCount&gt;-1&lt;/ExceptCount&gt;
+    &lt;NumberScales&gt;1&lt;/NumberScales&gt;
+    &lt;ScheduleAt&gt;2025-03-20T11:40:12.4127759+08:00&lt;/ScheduleAt&gt;
+    &lt;WhichPlugin&gt;uIP.MacroProvider.Commons.CronJob.CronJobProvider&lt;/WhichPlugin&gt;
+    &lt;WhichPluginClassFunc&gt;TestRun&lt;/WhichPluginClassFunc&gt;
+    &lt;FuncArgs&gt;
+      &lt;anyType xsi:type="xsd:string"&gt;Run in-seconds&lt;/anyType&gt;
+    &lt;/FuncArgs&gt;
+  &lt;/KeepingScheduleInfo&gt;
+&lt;/ArrayOfKeepingScheduleInfo&gt;</Data>
+  </Element>
+  <Element>
+    <TypeName>uIP.MacroProvider.Commons.CronJob.KeepingScheduleInfo[]</TypeName>
+    <Data>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfKeepingScheduleInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;KeepingScheduleInfo&gt;
+    &lt;RenewWay&gt;NA&lt;/RenewWay&gt;
+    &lt;ExceptCount&gt;-1&lt;/ExceptCount&gt;
+    &lt;NumberScales&gt;1&lt;/NumberScales&gt;
+    &lt;ScheduleAt&gt;2025-03-20T11:40:10.2688072+08:00&lt;/ScheduleAt&gt;
+    &lt;WhichPlugin&gt;uIP.MacroProvider.Commons.CronJob.CronJobProvider&lt;/WhichPlugin&gt;
+    &lt;WhichPluginClassFunc&gt;TestRun&lt;/WhichPluginClassFunc&gt;
+    &lt;FuncArgs&gt;
+      &lt;anyType xsi:type="xsd:string"&gt;Run in-minute&lt;/anyType&gt;
+    &lt;/FuncArgs&gt;
+  &lt;/KeepingScheduleInfo&gt;
+&lt;/ArrayOfKeepingScheduleInfo&gt;</Data>
+  </Element>
+  <Element>
+    <TypeName>uIP.MacroProvider.Commons.CronJob.KeepingScheduleInfo[]</TypeName>
+    <Data>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfKeepingScheduleInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;KeepingScheduleInfo&gt;
+    &lt;RenewWay&gt;ByDay&lt;/RenewWay&gt;
+    &lt;ExceptCount&gt;-1&lt;/ExceptCount&gt;
+    &lt;NumberScales&gt;7&lt;/NumberScales&gt;
+    &lt;ScheduleAt&gt;2025-04-02T16:33:54.7760092+08:00&lt;/ScheduleAt&gt;
+    &lt;WhichPlugin&gt;uIP.MacroProvider.YZW.SOP.Communication.uProviderSopCommunication&lt;/WhichPlugin&gt;
+    &lt;WhichPluginClassFunc&gt;RegularlyClearDb&lt;/WhichPluginClassFunc&gt;
+    &lt;FuncArgs /&gt;
+  &lt;/KeepingScheduleInfo&gt;
+&lt;/ArrayOfKeepingScheduleInfo&gt;</Data>
+  </Element>
+</DataCarrier>
